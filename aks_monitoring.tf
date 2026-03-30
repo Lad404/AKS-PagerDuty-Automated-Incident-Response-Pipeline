@@ -61,7 +61,7 @@ resource "azurerm_monitor_action_group" "pagerduty_action" {
   webhook_receiver {
     name                    = "pagerduty-webhook"
     # Using your PagerDuty Integration URL
-    service_uri             = "https://events.pagerduty.com/integration/d8b8a3c597514a07d0fafb039076d781/enqueue"
+    service_uri             = "<Replace the URL with your PagerDuty Integration URL>"
     use_common_alert_schema = true
   }
 }
